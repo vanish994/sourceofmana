@@ -1,0 +1,63 @@
+{
+ "id": "mine-abandoned-level",
+ "name": "Desert Abandoned Level",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Cave",
+   "key": "cave",
+   "file": "assets/tilesets/mine-abandoned-level/cave.png"
+  },
+  {
+   "name": "Cave x3",
+   "key": "cave-x3",
+   "file": "assets/tilesets/mine-abandoned-level/cave-x3.png"
+  },
+  {
+   "name": "Cave x4 x4",
+   "key": "cave-x4-x4",
+   "file": "assets/tilesets/mine-abandoned-level/cave-x4-x4.png"
+  },
+  {
+   "name": "Cave x5 x3",
+   "key": "cave-x5-x3",
+   "file": "assets/tilesets/mine-abandoned-level/cave-x5-x3.png"
+  },
+  {
+   "name": "Spider Web x4x3",
+   "key": "spider-web-x4x3",
+   "file": "assets/tilesets/mine-abandoned-level/spider-web-x4x3.png"
+  },
+  {
+   "name": "Torch",
+   "key": "torch",
+   "file": "assets/tilesets/mine-abandoned-level/torch.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/mine-abandoned-level/collision.png"
+  },
+  {
+   "name": "Mine x3",
+   "key": "mine-x3",
+   "file": "assets/tilesets/mine-abandoned-level/mine-x3.png"
+  },
+  {
+   "name": "Cave x4",
+   "key": "cave-x4",
+   "file": "assets/tilesets/mine-abandoned-level/cave-x4.png"
+  },
+  {
+   "name": "Cave Special Entrance x2x3",
+   "key": "cave-special-entrance-x2x3",
+   "file": "assets/tilesets/mine-abandoned-level/cave-special-entrance-x2x3.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/mine-abandoned-level/accessory.png"
+  }
+ ]
+}

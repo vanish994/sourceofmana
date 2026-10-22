@@ -1,0 +1,58 @@
+{
+ "id": "mountain-cave",
+ "name": "Desert Mountain Cave",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Cave",
+   "key": "cave",
+   "file": "assets/tilesets/mountain-cave/cave.png"
+  },
+  {
+   "name": "Cave x3",
+   "key": "cave-x3",
+   "file": "assets/tilesets/mountain-cave/cave-x3.png"
+  },
+  {
+   "name": "Cave x5 x3",
+   "key": "cave-x5-x3",
+   "file": "assets/tilesets/mountain-cave/cave-x5-x3.png"
+  },
+  {
+   "name": "Cave x2",
+   "key": "cave-x2",
+   "file": "assets/tilesets/mountain-cave/cave-x2.png"
+  },
+  {
+   "name": "Torch",
+   "key": "torch",
+   "file": "assets/tilesets/mountain-cave/torch.png"
+  },
+  {
+   "name": "Cave x4",
+   "key": "cave-x4",
+   "file": "assets/tilesets/mountain-cave/cave-x4.png"
+  },
+  {
+   "name": "Cave x4 x4",
+   "key": "cave-x4-x4",
+   "file": "assets/tilesets/mountain-cave/cave-x4-x4.png"
+  },
+  {
+   "name": "Spider Web x4x3",
+   "key": "spider-web-x4x3",
+   "file": "assets/tilesets/mountain-cave/spider-web-x4x3.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/mountain-cave/collision.png"
+  },
+  {
+   "name": "Sunlight",
+   "key": "sunlight",
+   "file": "assets/tilesets/mountain-cave/sunlight.png"
+  }
+ ]
+}

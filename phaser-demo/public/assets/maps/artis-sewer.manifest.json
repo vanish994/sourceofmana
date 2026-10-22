@@ -1,0 +1,43 @@
+{
+ "id": "artis-sewer",
+ "name": "Artis Sewer",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Sunlight",
+   "key": "sunlight",
+   "file": "assets/tilesets/artis-sewer/sunlight.png"
+  },
+  {
+   "name": "Sewer",
+   "key": "sewer",
+   "file": "assets/tilesets/artis-sewer/sewer.png"
+  },
+  {
+   "name": "Sewer x2x2",
+   "key": "sewer-x2x2",
+   "file": "assets/tilesets/artis-sewer/sewer-x2x2.png"
+  },
+  {
+   "name": "Sewer x1x3",
+   "key": "sewer-x1x3",
+   "file": "assets/tilesets/artis-sewer/sewer-x1x3.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/artis-sewer/collision.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/artis-sewer/box.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/artis-sewer/box-x1x2.png"
+  }
+ ]
+}

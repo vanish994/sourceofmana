@@ -1,0 +1,18 @@
+{
+ "id": "interior-001-2-26",
+ "name": "Laborat\u00f3rio de Alquimia (interior)",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Indoor",
+   "key": "indoor",
+   "file": "assets/tilesets/interiors/indoor.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/interiors/collision.png"
+  }
+ ]
+}

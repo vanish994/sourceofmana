@@ -1,0 +1,43 @@
+{
+ "id": "ship-alige-hide",
+ "name": "Ship Alige Hide",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Indoor",
+   "key": "indoor",
+   "file": "assets/tilesets/ship-alige-hide/indoor.png"
+  },
+  {
+   "name": "Indoor Fringe",
+   "key": "indoor-fringe",
+   "file": "assets/tilesets/ship-alige-hide/indoor-fringe.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/ship-alige-hide/box.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/ship-alige-hide/collision.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/ship-alige-hide/box-x1x2.png"
+  },
+  {
+   "name": "Sunlight x1x5",
+   "key": "sunlight-x1x5",
+   "file": "assets/tilesets/ship-alige-hide/sunlight-x1x5.png"
+  },
+  {
+   "name": "Candle x1x2",
+   "key": "candle-x1x2",
+   "file": "assets/tilesets/ship-alige-hide/candle-x1x2.png"
+  }
+ ]
+}

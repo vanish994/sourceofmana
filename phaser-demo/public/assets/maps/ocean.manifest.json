@@ -1,0 +1,63 @@
+{
+ "id": "ocean",
+ "name": "Ocean",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/ocean/water.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/ocean/water-sparkle.png"
+  },
+  {
+   "name": "Water Transition",
+   "key": "water-transition",
+   "file": "assets/tilesets/ocean/water-transition.png"
+  },
+  {
+   "name": "Ship Accessories",
+   "key": "ship-accessories",
+   "file": "assets/tilesets/ocean/ship-accessories.png"
+  },
+  {
+   "name": "High Board",
+   "key": "high-board",
+   "file": "assets/tilesets/ocean/high-board.png"
+  },
+  {
+   "name": "Ship",
+   "key": "ship",
+   "file": "assets/tilesets/ocean/ship.png"
+  },
+  {
+   "name": "Mast",
+   "key": "mast",
+   "file": "assets/tilesets/ocean/mast.png"
+  },
+  {
+   "name": "Ship Accessories 2",
+   "key": "ship-accessories-2",
+   "file": "assets/tilesets/ocean/ship-accessories-2.png"
+  },
+  {
+   "name": "Mast x2x4",
+   "key": "mast-x2x4",
+   "file": "assets/tilesets/ocean/mast-x2x4.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/ocean/collision.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/ocean/box.png"
+  }
+ ]
+}

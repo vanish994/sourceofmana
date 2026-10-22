@@ -1,0 +1,18 @@
+{
+ "id": "interior-001-2-2",
+ "name": "Casa da Taree (interior)",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Indoor",
+   "key": "indoor",
+   "file": "assets/tilesets/interiors/indoor.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/interiors/collision.png"
+  }
+ ]
+}

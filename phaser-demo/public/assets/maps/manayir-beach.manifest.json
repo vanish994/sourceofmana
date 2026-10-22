@@ -1,0 +1,93 @@
+{
+ "id": "manayir-beach",
+ "name": "Manayir Beach",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/manayir-beach/wall.png"
+  },
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/manayir-beach/ground.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/manayir-beach/waves.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/manayir-beach/water.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/manayir-beach/water-sparkle.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/manayir-beach/accessory.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/manayir-beach/house.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/manayir-beach/market.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/manayir-beach/accessory-x3.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/manayir-beach/accessory-x2.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/manayir-beach/palm-tree-x5.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/manayir-beach/ground-x4.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/manayir-beach/pillar-x2x2.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/manayir-beach/collision-full.png"
+  },
+  {
+   "name": "Ground x3",
+   "key": "ground-x3",
+   "file": "assets/tilesets/manayir-beach/ground-x3.png"
+  },
+  {
+   "name": "Pillar x2",
+   "key": "pillar-x2",
+   "file": "assets/tilesets/manayir-beach/pillar-x2.png"
+  },
+  {
+   "name": "Tree x4",
+   "key": "tree-x4",
+   "file": "assets/tilesets/manayir-beach/tree-x4.png"
+  }
+ ]
+}

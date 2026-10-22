@@ -1,0 +1,28 @@
+{
+ "id": "overworld",
+ "name": "Overworld",
+ "tilewidth": 16,
+ "tileheight": 16,
+ "tilesets": [
+  {
+   "name": "Grass",
+   "key": "grass",
+   "file": "assets/tilesets/overworld/grass.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/overworld/house.png"
+  },
+  {
+   "name": "Desert",
+   "key": "desert",
+   "file": "assets/tilesets/overworld/desert.png"
+  },
+  {
+   "name": "Collisions",
+   "key": "collisions",
+   "file": "assets/tilesets/overworld/collisions.png"
+  }
+ ]
+}

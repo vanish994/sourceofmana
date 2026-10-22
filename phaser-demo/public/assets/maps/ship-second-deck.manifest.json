@@ -1,0 +1,53 @@
+{
+ "id": "ship-second-deck",
+ "name": "Ship Second Deck",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Indoor",
+   "key": "indoor",
+   "file": "assets/tilesets/ship-second-deck/indoor.png"
+  },
+  {
+   "name": "Indoor Fringe",
+   "key": "indoor-fringe",
+   "file": "assets/tilesets/ship-second-deck/indoor-fringe.png"
+  },
+  {
+   "name": "Candle x1x2",
+   "key": "candle-x1x2",
+   "file": "assets/tilesets/ship-second-deck/candle-x1x2.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/ship-second-deck/box.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/ship-second-deck/collision.png"
+  },
+  {
+   "name": "Indoor x2x4",
+   "key": "indoor-x2x4",
+   "file": "assets/tilesets/ship-second-deck/indoor-x2x4.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/ship-second-deck/box-x1x2.png"
+  },
+  {
+   "name": "Sunlight x1x5",
+   "key": "sunlight-x1x5",
+   "file": "assets/tilesets/ship-second-deck/sunlight-x1x5.png"
+  },
+  {
+   "name": "Hammock",
+   "key": "hammock",
+   "file": "assets/tilesets/ship-second-deck/hammock.png"
+  }
+ ]
+}

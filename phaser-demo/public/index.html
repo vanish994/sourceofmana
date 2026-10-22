@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Source of Mana × Phaser 3 — demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Source of Mana × Phaser 3</h1>
+    <p><strong>Overworld completo</strong> (mapa-múndi 385×290 tiles, Tiled → JSON) + sprite do <strong>Slime</strong>, sem nenhum código do MMORPG.</p>
+  </header>
+
+  <div id="error" style="display:none; background:#7a1f1f; color:#fff; padding:10px 14px; border-radius:6px; max-width:960px; font-size:14px;"></div>
+  <div id="game">
+    <p id="loading" style="color:#bdb3d9">Carregando…</p>
+    <div id="joy" aria-label="Joystick virtual"><div id="joy-thumb"></div></div>
+    <div id="zoom-btns">
+      <button id="zoom-in" aria-label="Aproximar">＋</button>
+      <button id="zoom-out" aria-label="Afastar">－</button>
+    </div>
+    <button id="map-btn" aria-label="Ver o mapa inteiro">🗺 Mapa</button>
+    <button id="unstick-btn" aria-label="Desprender o personagem">🆘 Desprender</button>
+    <div id="minimap-wrap" style="display:none">
+      <img id="minimap" src="assets/minimap.png" alt="Mapa-múndi completo do Source of Mana">
+      <button id="minimap-close" aria-label="Fechar o mapa">✕ Fechar</button>
+      <div id="player-dot"></div>
+      <p>Mapa-múndi inteiro (385×290 tiles) — o ponto amarelo é você. Toque em 🗺 de novo pra voltar.</p>
+    </div>
+  </div>
+
+  <footer>
+    <span>📱 <strong>Android/toque:</strong> arraste o joystick (canto inferior esquerdo) ou <strong>toque no chão</strong> pra andar</span>
+    <span>⚔️ <strong>toque num slime</strong> = andar até ele e atacar</span>
+    <span>🔍 botões ＋/－ = zoom</span>
+    <span>🎮 no PC: <kbd>WASD</kbd>/setas e clique</span>
+    <span class="credits">Arte: Source of Mana — CC BY-SA 4.0 (ver README.md)</span>
+  </footer>
+
+  <script src="lib/phaser.min.js"></script>
+  <script src="controls.js?v=mobs-11"></script>
+  <script src="main.js?v=mobs-11"></script>
+</body>
+</html>

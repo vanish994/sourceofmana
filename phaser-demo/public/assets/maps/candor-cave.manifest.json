@@ -1,0 +1,38 @@
+{
+ "id": "candor-cave",
+ "name": "Candor Cave",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Cave",
+   "key": "cave",
+   "file": "assets/tilesets/candor-cave/cave.png"
+  },
+  {
+   "name": "Cave x2",
+   "key": "cave-x2",
+   "file": "assets/tilesets/candor-cave/cave-x2.png"
+  },
+  {
+   "name": "Cave x4 x4",
+   "key": "cave-x4-x4",
+   "file": "assets/tilesets/candor-cave/cave-x4-x4.png"
+  },
+  {
+   "name": "Cave x4",
+   "key": "cave-x4",
+   "file": "assets/tilesets/candor-cave/cave-x4.png"
+  },
+  {
+   "name": "Torch",
+   "key": "torch",
+   "file": "assets/tilesets/candor-cave/torch.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/candor-cave/collision.png"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "snake-pit",
+ "name": "Snake Pit",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Cave",
+   "key": "cave",
+   "file": "assets/tilesets/snake-pit/cave.png"
+  },
+  {
+   "name": "Cave x3",
+   "key": "cave-x3",
+   "file": "assets/tilesets/snake-pit/cave-x3.png"
+  },
+  {
+   "name": "Cave x5 x3",
+   "key": "cave-x5-x3",
+   "file": "assets/tilesets/snake-pit/cave-x5-x3.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/snake-pit/collision.png"
+  },
+  {
+   "name": "Spider Web x4x3",
+   "key": "spider-web-x4x3",
+   "file": "assets/tilesets/snake-pit/spider-web-x4x3.png"
+  },
+  {
+   "name": "Hammock",
+   "key": "hammock",
+   "file": "assets/tilesets/snake-pit/hammock.png"
+  },
+  {
+   "name": "Cave x2",
+   "key": "cave-x2",
+   "file": "assets/tilesets/snake-pit/cave-x2.png"
+  },
+  {
+   "name": "Bottles",
+   "key": "bottles",
+   "file": "assets/tilesets/snake-pit/bottles.png"
+  },
+  {
+   "name": "Sunlight",
+   "key": "sunlight",
+   "file": "assets/tilesets/snake-pit/sunlight.png"
+  },
+  {
+   "name": "Torch",
+   "key": "torch",
+   "file": "assets/tilesets/snake-pit/torch.png"
+  }
+ ]
+}

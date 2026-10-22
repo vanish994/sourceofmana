@@ -1,0 +1,148 @@
+{
+ "id": "tulimshar-bay",
+ "name": "Tulimshar Bay",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/tulimshar-bay/ground.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/tulimshar-bay/house.png"
+  },
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/tulimshar-bay/wall.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/tulimshar-bay/accessory.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/tulimshar-bay/market.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/tulimshar-bay/accessory-x3.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/tulimshar-bay/palm-tree-x5.png"
+  },
+  {
+   "name": "Ground x3",
+   "key": "ground-x3",
+   "file": "assets/tilesets/tulimshar-bay/ground-x3.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/tulimshar-bay/pillar-x2x2.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/tulimshar-bay/accessory-x2.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/tulimshar-bay/ground-x4.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/tulimshar-bay/collision-full.png"
+  },
+  {
+   "name": "Ruin x3",
+   "key": "ruin-x3",
+   "file": "assets/tilesets/tulimshar-bay/ruin-x3.png"
+  },
+  {
+   "name": "Lighthouse x4 x4",
+   "key": "lighthouse-x4-x4",
+   "file": "assets/tilesets/tulimshar-bay/lighthouse-x4-x4.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/tulimshar-bay/waves.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/tulimshar-bay/water-sparkle.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/tulimshar-bay/water.png"
+  },
+  {
+   "name": "Bridge Vertical",
+   "key": "bridge-vertical",
+   "file": "assets/tilesets/tulimshar-bay/bridge-vertical.png"
+  },
+  {
+   "name": "Dock",
+   "key": "dock",
+   "file": "assets/tilesets/tulimshar-bay/dock.png"
+  },
+  {
+   "name": "High Board",
+   "key": "high-board",
+   "file": "assets/tilesets/tulimshar-bay/high-board.png"
+  },
+  {
+   "name": "Water Transition",
+   "key": "water-transition",
+   "file": "assets/tilesets/tulimshar-bay/water-transition.png"
+  },
+  {
+   "name": "Ship",
+   "key": "ship",
+   "file": "assets/tilesets/tulimshar-bay/ship.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/tulimshar-bay/box.png"
+  },
+  {
+   "name": "Mast",
+   "key": "mast",
+   "file": "assets/tilesets/tulimshar-bay/mast.png"
+  },
+  {
+   "name": "Ship Accessories",
+   "key": "ship-accessories",
+   "file": "assets/tilesets/tulimshar-bay/ship-accessories.png"
+  },
+  {
+   "name": "Mast x2x4",
+   "key": "mast-x2x4",
+   "file": "assets/tilesets/tulimshar-bay/mast-x2x4.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/tulimshar-bay/box-x1x2.png"
+  },
+  {
+   "name": "Harbour x6x4",
+   "key": "harbour-x6x4",
+   "file": "assets/tilesets/tulimshar-bay/harbour-x6x4.png"
+  }
+ ]
+}

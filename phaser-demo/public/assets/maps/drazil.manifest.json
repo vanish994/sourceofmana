@@ -1,0 +1,58 @@
+{
+ "id": "drazil",
+ "name": "Drazil",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/drazil/water.png"
+  },
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/drazil/ground.png"
+  },
+  {
+   "name": "Tree x3x3",
+   "key": "tree-x3x3",
+   "file": "assets/tilesets/drazil/tree-x3x3.png"
+  },
+  {
+   "name": "Tree x3x4",
+   "key": "tree-x3x4",
+   "file": "assets/tilesets/drazil/tree-x3x4.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/drazil/accessory.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/drazil/box.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/drazil/box-x1x2.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/drazil/waves.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/drazil/collision.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/drazil/water-sparkle.png"
+  }
+ ]
+}
