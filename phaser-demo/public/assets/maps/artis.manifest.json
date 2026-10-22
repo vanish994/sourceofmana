@@ -1,0 +1,203 @@
+{
+ "id": "artis",
+ "name": "Artis",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/artis/ground.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/artis/water.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/artis/house.png"
+  },
+  {
+   "name": "Blockwall",
+   "key": "blockwall",
+   "file": "assets/tilesets/artis/blockwall.png"
+  },
+  {
+   "name": "Bridge",
+   "key": "bridge",
+   "file": "assets/tilesets/artis/bridge.png"
+  },
+  {
+   "name": "Dock",
+   "key": "dock",
+   "file": "assets/tilesets/artis/dock.png"
+  },
+  {
+   "name": "Pavement",
+   "key": "pavement",
+   "file": "assets/tilesets/artis/pavement.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/artis/market.png"
+  },
+  {
+   "name": "Fence",
+   "key": "fence",
+   "file": "assets/tilesets/artis/fence.png"
+  },
+  {
+   "name": "Pillar x1x2",
+   "key": "pillar-x1x2",
+   "file": "assets/tilesets/artis/pillar-x1x2.png"
+  },
+  {
+   "name": "Windows",
+   "key": "windows",
+   "file": "assets/tilesets/artis/windows.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/artis/accessory.png"
+  },
+  {
+   "name": "Accessory x1x2",
+   "key": "accessory-x1x2",
+   "file": "assets/tilesets/artis/accessory-x1x2.png"
+  },
+  {
+   "name": "Archway x1x4",
+   "key": "archway-x1x4",
+   "file": "assets/tilesets/artis/archway-x1x4.png"
+  },
+  {
+   "name": "Archway x1x5",
+   "key": "archway-x1x5",
+   "file": "assets/tilesets/artis/archway-x1x5.png"
+  },
+  {
+   "name": "Tree x3x3",
+   "key": "tree-x3x3",
+   "file": "assets/tilesets/artis/tree-x3x3.png"
+  },
+  {
+   "name": "Tree x3x4",
+   "key": "tree-x3x4",
+   "file": "assets/tilesets/artis/tree-x3x4.png"
+  },
+  {
+   "name": "Tree x4x5",
+   "key": "tree-x4x5",
+   "file": "assets/tilesets/artis/tree-x4x5.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/artis/box.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/artis/box-x1x2.png"
+  },
+  {
+   "name": "Fountain",
+   "key": "fountain",
+   "file": "assets/tilesets/artis/fountain.png"
+  },
+  {
+   "name": "Fountain x1x4",
+   "key": "fountain-x1x4",
+   "file": "assets/tilesets/artis/fountain-x1x4.png"
+  },
+  {
+   "name": "Accessory 2",
+   "key": "accessory-2",
+   "file": "assets/tilesets/artis/accessory-2.png"
+  },
+  {
+   "name": "Harbour x6x4",
+   "key": "harbour-x6x4",
+   "file": "assets/tilesets/artis/harbour-x6x4.png"
+  },
+  {
+   "name": "Harbour x4x6",
+   "key": "harbour-x4x6",
+   "file": "assets/tilesets/artis/harbour-x4x6.png"
+  },
+  {
+   "name": "Indoor",
+   "key": "indoor",
+   "file": "assets/tilesets/artis/indoor.png"
+  },
+  {
+   "name": "Shadows",
+   "key": "shadows",
+   "file": "assets/tilesets/artis/shadows.png"
+  },
+  {
+   "name": "Lamps",
+   "key": "lamps",
+   "file": "assets/tilesets/artis/lamps.png"
+  },
+  {
+   "name": "Lamps x1x3",
+   "key": "lamps-x1x3",
+   "file": "assets/tilesets/artis/lamps-x1x3.png"
+  },
+  {
+   "name": "Artis Fountain x3x2",
+   "key": "artis-fountain-x3x2",
+   "file": "assets/tilesets/artis/artis-fountain-x3x2.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/artis/waves.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/artis/collision.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/artis/water-sparkle.png"
+  },
+  {
+   "name": "Water Transition",
+   "key": "water-transition",
+   "file": "assets/tilesets/artis/water-transition.png"
+  },
+  {
+   "name": "High Board",
+   "key": "high-board",
+   "file": "assets/tilesets/artis/high-board.png"
+  },
+  {
+   "name": "Ship",
+   "key": "ship",
+   "file": "assets/tilesets/artis/ship.png"
+  },
+  {
+   "name": "Ship Accessories",
+   "key": "ship-accessories",
+   "file": "assets/tilesets/artis/ship-accessories.png"
+  },
+  {
+   "name": "Mast",
+   "key": "mast",
+   "file": "assets/tilesets/artis/mast.png"
+  },
+  {
+   "name": "Mast x2x4",
+   "key": "mast-x2x4",
+   "file": "assets/tilesets/artis/mast-x2x4.png"
+  }
+ ]
+}

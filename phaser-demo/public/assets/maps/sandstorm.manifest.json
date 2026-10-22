@@ -1,0 +1,73 @@
+{
+ "id": "sandstorm",
+ "name": "Sandstorm",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/sandstorm/ground.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/sandstorm/accessory-x2.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/sandstorm/accessory.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/sandstorm/accessory-x3.png"
+  },
+  {
+   "name": "Ruin x3",
+   "key": "ruin-x3",
+   "file": "assets/tilesets/sandstorm/ruin-x3.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/sandstorm/palm-tree-x5.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/sandstorm/collision-full.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/sandstorm/pillar-x2x2.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/sandstorm/ground-x4.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/sandstorm/house.png"
+  },
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/sandstorm/wall.png"
+  },
+  {
+   "name": "Tree x4",
+   "key": "tree-x4",
+   "file": "assets/tilesets/sandstorm/tree-x4.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/sandstorm/market.png"
+  }
+ ]
+}

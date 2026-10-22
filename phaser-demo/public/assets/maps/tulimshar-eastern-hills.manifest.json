@@ -1,0 +1,88 @@
+{
+ "id": "tulimshar-eastern-hills",
+ "name": "Tulimshar Eastern Hills",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/tulimshar-eastern-hills/ground.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/tulimshar-eastern-hills/house.png"
+  },
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/tulimshar-eastern-hills/wall.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/tulimshar-eastern-hills/accessory.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/tulimshar-eastern-hills/accessory-x3.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/tulimshar-eastern-hills/palm-tree-x5.png"
+  },
+  {
+   "name": "Ground x3",
+   "key": "ground-x3",
+   "file": "assets/tilesets/tulimshar-eastern-hills/ground-x3.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/tulimshar-eastern-hills/pillar-x2x2.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/tulimshar-eastern-hills/accessory-x2.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/tulimshar-eastern-hills/ground-x4.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/tulimshar-eastern-hills/collision-full.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/tulimshar-eastern-hills/waves.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/tulimshar-eastern-hills/water-sparkle.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/tulimshar-eastern-hills/water.png"
+  },
+  {
+   "name": "Bridge Vertical",
+   "key": "bridge-vertical",
+   "file": "assets/tilesets/tulimshar-eastern-hills/bridge-vertical.png"
+  },
+  {
+   "name": "Bridge Vertical 2",
+   "key": "bridge-vertical-2",
+   "file": "assets/tilesets/tulimshar-eastern-hills/bridge-vertical-2.png"
+  }
+ ]
+}

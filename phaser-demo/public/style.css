@@ -1,0 +1,82 @@
+* { box-sizing: border-box; }
+html, body { overscroll-behavior: none; }
+body {
+  margin: 0; min-height: 100vh; background: #14101d; color: #eee;
+  font-family: system-ui, sans-serif; display: flex; flex-direction: column;
+  align-items: center; gap: 10px; padding: 16px;
+}
+h1 { margin: 0; font-size: 20px; }
+header p { margin: 4px 0 0; color: #bdb3d9; font-size: 14px; text-align: center; }
+#game { position: relative; width: min(96vw, 960px); line-height: 0; }
+#game canvas {
+  border: 2px solid #3a2f5a; border-radius: 8px; max-width: 100%; height: auto;
+  touch-action: none; /* essencial: sem isso o Android rola a pagina em vez de jogar */
+  -webkit-user-select: none; user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+footer { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; font-size: 13px; color: #bdb3d9; line-height: 1.5; }
+kbd { background: #2a2144; border: 1px solid #574a80; border-bottom-width: 3px; border-radius: 4px; padding: 0 5px; color: #fff; }
+.credits { color: #8f86ad; }
+
+/* ---- joystick virtual (toque) ---- */
+#joy {
+  position: absolute; left: 14px; bottom: 14px; z-index: 5;
+  width: 124px; height: 124px; border-radius: 50%;
+  background: rgba(20, 14, 40, .45); border: 2px solid rgba(255, 255, 255, .35);
+  touch-action: none; display: none;
+}
+#joy-thumb {
+  position: absolute; left: 50%; top: 50%; z-index: 6;
+  width: 54px; height: 54px; border-radius: 50%;
+  background: rgba(255, 224, 138, .75); border: 2px solid rgba(0, 0, 0, .35);
+  transform: translate(-50%, -50%); pointer-events: none;
+}
+/* joystick e botoes grandes so fazem sentido com toque; no PC ficam ocultos */
+#zoom-btns {
+  position: absolute; right: 14px; bottom: 14px; z-index: 5;
+  display: none; flex-direction: column; gap: 10px;
+}
+#zoom-btns button {
+  width: 52px; height: 52px; border-radius: 50%; border: 2px solid rgba(255,255,255,.35);
+  background: rgba(20, 14, 40, .55); color: #fff; font-size: 26px; line-height: 1;
+  touch-action: manipulation;
+}
+@media (pointer: coarse) {
+  #joy { display: block; }
+  #zoom-btns { display: flex; }
+  body { padding: 8px; }
+}
+
+/* ---- botao + painel do mapa inteiro ---- */
+#map-btn {
+  position: absolute; right: 14px; top: 14px; z-index: 10; /* acima do painel do mapa: senao nao da p/ fechar */
+  padding: 10px 14px; border-radius: 24px; border: 2px solid rgba(255,255,255,.35);
+  background: rgba(20, 14, 40, .65); color: #fff; font-size: 16px;
+  touch-action: manipulation;
+}
+#unstick-btn {
+  position: absolute; right: 14px; top: 64px; z-index: 6;
+  padding: 10px 14px; border-radius: 24px; border: 2px solid rgba(255,255,255,.35);
+  background: rgba(122, 31, 31, .75); color: #fff; font-size: 16px;
+  touch-action: manipulation;
+}
+#minimap-wrap {
+  position: absolute; inset: 0; z-index: 7; line-height: 1.4;
+  background: rgba(8, 6, 18, .92); border-radius: 8px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 10px;
+}
+#minimap-wrap img { max-width: 100%; max-height: 82%; border: 1px solid #574a80; border-radius: 4px; }
+#minimap-wrap { position: absolute; }
+#player-dot {
+  position: absolute; width: 12px; height: 12px; border-radius: 50%;
+  background: #ffe08a; border: 2px solid #000; z-index: 8;
+  transform: translate(-50%, -50%); pointer-events: none;
+  box-shadow: 0 0 8px 3px rgba(255, 224, 138, .8);
+}
+#minimap-wrap p { color: #bdb3d9; font-size: 13px; margin: 8px 0 0; text-align: center; }
+#minimap-close {
+  position: absolute; right: 10px; top: 10px; z-index: 9;
+  padding: 10px 16px; border-radius: 24px; border: 2px solid rgba(255,255,255,.5);
+  background: #7a1f1f; color: #fff; font-size: 16px; touch-action: manipulation;
+}

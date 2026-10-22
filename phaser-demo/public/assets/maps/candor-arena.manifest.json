@@ -1,0 +1,53 @@
+{
+ "id": "candor-arena",
+ "name": "Candor Arena",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Cave",
+   "key": "cave",
+   "file": "assets/tilesets/candor-arena/cave.png"
+  },
+  {
+   "name": "Chess",
+   "key": "chess",
+   "file": "assets/tilesets/candor-arena/chess.png"
+  },
+  {
+   "name": "Collision",
+   "key": "collision",
+   "file": "assets/tilesets/candor-arena/collision.png"
+  },
+  {
+   "name": "Cave x2",
+   "key": "cave-x2",
+   "file": "assets/tilesets/candor-arena/cave-x2.png"
+  },
+  {
+   "name": "Spider Web",
+   "key": "spider-web",
+   "file": "assets/tilesets/candor-arena/spider-web.png"
+  },
+  {
+   "name": "Torch",
+   "key": "torch",
+   "file": "assets/tilesets/candor-arena/torch.png"
+  },
+  {
+   "name": "Cave x4 x4",
+   "key": "cave-x4-x4",
+   "file": "assets/tilesets/candor-arena/cave-x4-x4.png"
+  },
+  {
+   "name": "Spider",
+   "key": "spider",
+   "file": "assets/tilesets/candor-arena/spider.png"
+  },
+  {
+   "name": "Cave x4",
+   "key": "cave-x4",
+   "file": "assets/tilesets/candor-arena/cave-x4.png"
+  }
+ ]
+}

@@ -1,0 +1,1734 @@
+{
+ "Bat": {
+  "key": "bat",
+  "file": "assets/monsters/bat.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    0,
+    1,
+    2,
+    1
+   ],
+   "left": [
+    12,
+    13,
+    14,
+    13
+   ],
+   "right": [
+    4,
+    5,
+    6,
+    5
+   ],
+   "up": [
+    8,
+    9,
+    10,
+    9
+   ]
+  },
+  "hp": 90,
+  "level": 3,
+  "walkSpeed": 120.0,
+  "attack": 10,
+  "exp": 6
+ },
+ "Coconut Tree": {
+  "key": "coconut-tree",
+  "file": "assets/monsters/coconut-tree.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    3
+   ],
+   "left": [
+    3
+   ],
+   "right": [
+    3
+   ],
+   "up": [
+    3
+   ]
+  },
+  "hp": 70,
+  "level": 2,
+  "walkSpeed": 50.0,
+  "attack": 15,
+  "exp": 3
+ },
+ "Croc": {
+  "key": "croc",
+  "file": "assets/monsters/croc.png",
+  "frameWidth": 30,
+  "frameHeight": 22,
+  "walk": {
+   "down": [
+    1,
+    0,
+    2,
+    0
+   ],
+   "left": [
+    17,
+    16,
+    18,
+    16
+   ],
+   "right": [
+    49,
+    48,
+    50,
+    48
+   ],
+   "up": [
+    33,
+    32,
+    34,
+    32
+   ]
+  },
+  "hp": 55,
+  "level": 5,
+  "walkSpeed": 90.0,
+  "attack": 8,
+  "exp": 10
+ },
+ "Crocotree": {
+  "key": "crocotree",
+  "file": "assets/monsters/crocotree.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    3
+   ],
+   "left": [
+    3
+   ],
+   "right": [
+    3
+   ],
+   "up": [
+    3
+   ]
+  },
+  "hp": 70,
+  "level": 2,
+  "walkSpeed": 50.0,
+  "attack": 15,
+  "exp": 3
+ },
+ "Dorian": {
+  "key": "dorian",
+  "file": "assets/monsters/dorian.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 5,
+  "walkSpeed": 40.0,
+  "attack": 5,
+  "exp": 10
+ },
+ "Drain Slime": {
+  "key": "drain-slime",
+  "file": "assets/monsters/drain-slime.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 70.0,
+  "attack": 5,
+  "exp": 0
+ },
+ "Fire Goblin": {
+  "key": "fire-goblin",
+  "file": "assets/monsters/fire-goblin.png",
+  "frameWidth": 60,
+  "frameHeight": 43,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 75,
+  "level": 8,
+  "walkSpeed": 80.0,
+  "attack": 15,
+  "exp": 15
+ },
+ "Fire Skull": {
+  "key": "fire-skull",
+  "file": "assets/monsters/fire-skull.png",
+  "frameWidth": 50,
+  "frameHeight": 64,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 30,
+  "level": 10,
+  "walkSpeed": 50.0,
+  "attack": 5,
+  "exp": 20
+ },
+ "Fluffy": {
+  "key": "fluffy",
+  "file": "assets/monsters/fluffy.png",
+  "frameWidth": 28,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 50.0,
+  "attack": 5,
+  "exp": 0
+ },
+ "Gabriel": {
+  "key": "gabriel",
+  "file": "assets/monsters/gabriel.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 5,
+  "walkSpeed": 40.0,
+  "attack": 5,
+  "exp": 10
+ },
+ "Giant Maggot": {
+  "key": "giant-maggot",
+  "file": "assets/monsters/giant-maggot.png",
+  "frameWidth": 58,
+  "frameHeight": 46,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 370,
+  "level": 15,
+  "walkSpeed": 50.0,
+  "attack": 54,
+  "exp": 35
+ },
+ "Lizandra": {
+  "key": "lizandra",
+  "file": "assets/monsters/lizandra.png",
+  "frameWidth": 60,
+  "frameHeight": 60,
+  "walk": {
+   "down": [
+    25,
+    26,
+    27,
+    26
+   ],
+   "left": [
+    3,
+    4,
+    5,
+    4
+   ],
+   "right": [
+    14,
+    15,
+    16,
+    15
+   ],
+   "up": [
+    36,
+    37,
+    38,
+    37
+   ]
+  },
+  "hp": 300,
+  "level": 14,
+  "walkSpeed": 130.0,
+  "attack": 65,
+  "exp": 40
+ },
+ "Lizandre": {
+  "key": "lizandre",
+  "file": "assets/monsters/lizandre.png",
+  "frameWidth": 60,
+  "frameHeight": 60,
+  "walk": {
+   "down": [
+    25,
+    26,
+    27,
+    26
+   ],
+   "left": [
+    3,
+    4,
+    5,
+    4
+   ],
+   "right": [
+    14,
+    15,
+    16,
+    15
+   ],
+   "up": [
+    36,
+    37,
+    38,
+    37
+   ]
+  },
+  "hp": 220,
+  "level": 12,
+  "walkSpeed": 130.0,
+  "attack": 55,
+  "exp": 25
+ },
+ "Maggot": {
+  "key": "maggot",
+  "file": "assets/monsters/maggot.png",
+  "frameWidth": 20,
+  "frameHeight": 15,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 50,
+  "level": 1,
+  "walkSpeed": 50.0,
+  "attack": 10,
+  "exp": 1
+ },
+ "Manana Tree": {
+  "key": "manana-tree",
+  "file": "assets/monsters/manana-tree.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    3
+   ],
+   "left": [
+    3
+   ],
+   "right": [
+    3
+   ],
+   "up": [
+    3
+   ]
+  },
+  "hp": 70,
+  "level": 2,
+  "walkSpeed": 50.0,
+  "attack": 15,
+  "exp": 3
+ },
+ "Marvin": {
+  "key": "marvin",
+  "file": "assets/monsters/marvin.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 5,
+  "walkSpeed": 40.0,
+  "attack": 5,
+  "exp": 10
+ },
+ "Peyote": {
+  "key": "peyote",
+  "file": "assets/monsters/peyote.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    3
+   ],
+   "left": [
+    3
+   ],
+   "right": [
+    3
+   ],
+   "up": [
+    3
+   ]
+  },
+  "hp": 70,
+  "level": 2,
+  "walkSpeed": 50.0,
+  "attack": 15,
+  "exp": 3
+ },
+ "Pikpik": {
+  "key": "pikpik",
+  "file": "assets/monsters/pikpik.png",
+  "frameWidth": 10,
+  "frameHeight": 9,
+  "walk": {
+   "down": [
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    1
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    11
+   ],
+   "right": [
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    6
+   ],
+   "up": [
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    16
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 30.0,
+  "attack": 5,
+  "exp": 1
+ },
+ "Piou": {
+  "key": "piou",
+  "file": "assets/monsters/piou.png",
+  "frameWidth": 10,
+  "frameHeight": 9,
+  "walk": {
+   "down": [
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    1
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    11
+   ],
+   "right": [
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    6
+   ],
+   "up": [
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    16
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 30.0,
+  "attack": 5,
+  "exp": 1
+ },
+ "Piousse": {
+  "key": "piousse",
+  "file": "assets/monsters/piousse.png",
+  "frameWidth": 10,
+  "frameHeight": 9,
+  "walk": {
+   "down": [
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    1
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    27,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    12,
+    11,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    27,
+    17,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    11
+   ],
+   "right": [
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    22,
+    17,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    7,
+    6,
+    5,
+    6,
+    7,
+    6,
+    7,
+    6,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    22,
+    7,
+    6
+   ],
+   "up": [
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    27,
+    12,
+    32,
+    2,
+    37,
+    7,
+    22,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    16,
+    15,
+    16,
+    17,
+    16,
+    17,
+    16,
+    22,
+    7,
+    37,
+    2,
+    32,
+    12,
+    27,
+    17,
+    16
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 30.0,
+  "attack": 5,
+  "exp": 1
+ },
+ "Plushroom Field": {
+  "key": "plushroom-field",
+  "file": "assets/monsters/plushroom-field.png",
+  "frameWidth": 42,
+  "frameHeight": 40,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 80.0,
+  "attack": 5,
+  "exp": 0
+ },
+ "Ratto": {
+  "key": "ratto",
+  "file": "assets/monsters/ratto.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    8,
+    9,
+    10,
+    7
+   ],
+   "left": [
+    50,
+    51,
+    52,
+    49
+   ],
+   "right": [
+    22,
+    23,
+    24,
+    21
+   ],
+   "up": [
+    36,
+    37,
+    38,
+    35
+   ]
+  },
+  "hp": 85,
+  "level": 5,
+  "walkSpeed": 150.0,
+  "attack": 10,
+  "exp": 10
+ },
+ "Red Scorpion": {
+  "key": "red-scorpion",
+  "file": "assets/monsters/red-scorpion.png",
+  "frameWidth": 48,
+  "frameHeight": 45,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 500,
+  "level": 15,
+  "walkSpeed": 60.0,
+  "attack": 55,
+  "exp": 30
+ },
+ "Salt Slime": {
+  "key": "salt-slime",
+  "file": "assets/monsters/salt-slime.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 40.0,
+  "attack": 5,
+  "exp": 0
+ },
+ "Sand Snake": {
+  "key": "sand-snake",
+  "file": "assets/monsters/sand-snake.png",
+  "frameWidth": 48,
+  "frameHeight": 29,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 200,
+  "level": 19,
+  "walkSpeed": 120.0,
+  "attack": 85,
+  "exp": 60
+ },
+ "Scorpion": {
+  "key": "scorpion",
+  "file": "assets/monsters/scorpion.png",
+  "frameWidth": 48,
+  "frameHeight": 45,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 200,
+  "level": 4,
+  "walkSpeed": 60.0,
+  "attack": 22,
+  "exp": 8
+ },
+ "Sea Slime": {
+  "key": "sea-slime",
+  "file": "assets/monsters/sea-slime.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 200,
+  "level": 6,
+  "walkSpeed": 40.0,
+  "attack": 20,
+  "exp": 13
+ },
+ "Skeleton": {
+  "key": "skeleton",
+  "file": "assets/monsters/skeleton.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "left": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "right": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ],
+   "up": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ]
+  },
+  "hp": 300,
+  "level": 20,
+  "walkSpeed": 100.0,
+  "attack": 5,
+  "exp": 45
+ },
+ "Sludge Slime": {
+  "key": "sludge-slime",
+  "file": "assets/monsters/sludge-slime.png",
+  "frameWidth": 52,
+  "frameHeight": 24,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "left": [
+    10,
+    11,
+    12,
+    9
+   ],
+   "right": [
+    28,
+    29,
+    30,
+    27
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 1,
+  "walkSpeed": 50.0,
+  "attack": 5,
+  "exp": 0
+ },
+ "Snake": {
+  "key": "snake",
+  "file": "assets/monsters/snake.png",
+  "frameWidth": 48,
+  "frameHeight": 29,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "left": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "right": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "up": [
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "hp": 150,
+  "level": 17,
+  "walkSpeed": 140.0,
+  "attack": 40,
+  "exp": 40
+ },
+ "Splatyna": {
+  "key": "splatyna",
+  "file": "assets/monsters/splatyna.png",
+  "frameWidth": 208,
+  "frameHeight": 80,
+  "walk": {
+   "down": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    1,
+    0
+   ],
+   "left": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    13,
+    12
+   ],
+   "right": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    7,
+    6
+   ],
+   "up": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    19,
+    18
+   ]
+  },
+  "hp": 30,
+  "level": 10,
+  "walkSpeed": 50.0,
+  "attack": 5,
+  "exp": 20
+ },
+ "Turtle": {
+  "key": "turtle",
+  "file": "assets/monsters/turtle.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "walk": {
+   "down": [
+    1,
+    0,
+    2,
+    0
+   ],
+   "left": [
+    13,
+    12,
+    14,
+    12
+   ],
+   "right": [
+    9,
+    8,
+    10,
+    8
+   ],
+   "up": [
+    5,
+    4,
+    6,
+    4
+   ]
+  },
+  "hp": 250,
+  "level": 10,
+  "walkSpeed": 30.0,
+  "attack": 15,
+  "exp": 15
+ }
+}

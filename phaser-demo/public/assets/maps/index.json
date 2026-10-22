@@ -1,0 +1,306 @@
+{
+ "Artis": {
+  "id": "artis",
+  "tile": 32
+ },
+ "Candor Arena": {
+  "id": "candor-arena",
+  "tile": 32
+ },
+ "Candor Cave": {
+  "id": "candor-cave",
+  "tile": 32
+ },
+ "Drazil": {
+  "id": "drazil",
+  "tile": 32
+ },
+ "Ocean": {
+  "id": "ocean",
+  "tile": 32
+ },
+ "Overworld": {
+  "id": "overworld",
+  "tile": 16
+ },
+ "Artis Sewer": {
+  "id": "artis-sewer",
+  "tile": 32
+ },
+ "Ship Alige Hide": {
+  "id": "ship-alige-hide",
+  "tile": 32
+ },
+ "Ship First Deck": {
+  "id": "ship-first-deck",
+  "tile": 32
+ },
+ "Ship Hold": {
+  "id": "ship-hold",
+  "tile": 32
+ },
+ "Ship Nard's Room": {
+  "id": "ship-nard-room",
+  "tile": 32
+ },
+ "Ship Second Deck": {
+  "id": "ship-second-deck",
+  "tile": 32
+ },
+ "Splatyna's Chamber": {
+  "id": "splatyna-boss",
+  "tile": 32
+ },
+ "Splatyna's Corridor": {
+  "id": "splatyna-corridor",
+  "tile": 32
+ },
+ "Splatyna Cave Entrance": {
+  "id": "splatyna-entrance",
+  "tile": 32
+ },
+ "Splatyna's Marvin Hole": {
+  "id": "splatyna-first",
+  "tile": 32
+ },
+ "Splatyna's Dorian Dead End": {
+  "id": "splatyna-second",
+  "tile": 32
+ },
+ "Splatyna's Gabriel Pit": {
+  "id": "splatyna-third",
+  "tile": 32
+ },
+ "Desert Mountains": {
+  "id": "desert-mountain",
+  "tile": 32
+ },
+ "Desert Pit": {
+  "id": "desert-pit",
+  "tile": 32
+ },
+ "Desert Mountain Cave": {
+  "id": "mountain-cave",
+  "tile": 32
+ },
+ "Snake Pit": {
+  "id": "snake-pit",
+  "tile": 32
+ },
+ "Manayir Beach": {
+  "id": "manayir-beach",
+  "tile": 32
+ },
+ "Manayir": {
+  "id": "manayir",
+  "tile": 32
+ },
+ "Desert Abandoned Level": {
+  "id": "mine-abandoned-level",
+  "tile": 32
+ },
+ "Desert Deep Level": {
+  "id": "mine-deep-level",
+  "tile": 32
+ },
+ "Desert Mines": {
+  "id": "mine-entrance",
+  "tile": 32
+ },
+ "Sandstorm": {
+  "id": "sandstorm",
+  "tile": 32
+ },
+ "Tulimshar Castle Corridors": {
+  "id": "castle-corridors",
+  "tile": 32
+ },
+ "Tulimshar Castle": {
+  "id": "castle",
+  "tile": 32
+ },
+ "Tulimshar Bay": {
+  "id": "tulimshar-bay",
+  "tile": 32
+ },
+ "Tulimshar Center": {
+  "id": "tulimshar-center",
+  "tile": 32
+ },
+ "Tulimshar": {
+  "id": "tulimshar",
+  "tile": 32
+ },
+ "Tulimshar West Chamber": {
+  "id": "wall-west-chamber",
+  "tile": 32
+ },
+ "Tulimshar West Wall Pathway": {
+  "id": "wall-west-pathway",
+  "tile": 32
+ },
+ "Tulimshar Beach": {
+  "id": "tulimshar-beach",
+  "tile": 32
+ },
+ "Tulimshar Eastern Hills": {
+  "id": "tulimshar-eastern-hills",
+  "tile": 32
+ },
+ "Tulimshar Southern Hills": {
+  "id": "tulimshar-southern-hills",
+  "tile": 32
+ },
+ "Tulimshar Western Cave": {
+  "id": "tulimshar-western-cave",
+  "tile": 32
+ },
+ "Tulimshar Western Hills": {
+  "id": "tulimshar-western-hills",
+  "tile": 32
+ },
+ "001-2-0": {
+  "id": "interior-001-2-0",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-1": {
+  "id": "interior-001-2-1",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-10": {
+  "id": "interior-001-2-10",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-11": {
+  "id": "interior-001-2-11",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-12": {
+  "id": "interior-001-2-12",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-15": {
+  "id": "interior-001-2-15",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-16": {
+  "id": "interior-001-2-16",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-18": {
+  "id": "interior-001-2-18",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-19": {
+  "id": "interior-001-2-19",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-2": {
+  "id": "interior-001-2-2",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-20": {
+  "id": "interior-001-2-20",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-26": {
+  "id": "interior-001-2-26",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-27": {
+  "id": "interior-001-2-27",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-28": {
+  "id": "interior-001-2-28",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-31": {
+  "id": "interior-001-2-31",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-33": {
+  "id": "interior-001-2-33",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-4": {
+  "id": "interior-001-2-4",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ },
+ "001-2-7": {
+  "id": "interior-001-2-7",
+  "tile": 32,
+  "spawn": {
+   "x": 336,
+   "y": 464
+  }
+ }
+}

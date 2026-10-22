@@ -1,0 +1,148 @@
+{
+ "id": "tulimshar-western-hills",
+ "name": "Tulimshar Western Hills",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/tulimshar-western-hills/ground.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/tulimshar-western-hills/house.png"
+  },
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/tulimshar-western-hills/wall.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/tulimshar-western-hills/accessory.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/tulimshar-western-hills/market.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/tulimshar-western-hills/accessory-x3.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/tulimshar-western-hills/palm-tree-x5.png"
+  },
+  {
+   "name": "Ground x3",
+   "key": "ground-x3",
+   "file": "assets/tilesets/tulimshar-western-hills/ground-x3.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/tulimshar-western-hills/pillar-x2x2.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/tulimshar-western-hills/accessory-x2.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/tulimshar-western-hills/ground-x4.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/tulimshar-western-hills/collision-full.png"
+  },
+  {
+   "name": "Lighthouse x4 x4",
+   "key": "lighthouse-x4-x4",
+   "file": "assets/tilesets/tulimshar-western-hills/lighthouse-x4-x4.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/tulimshar-western-hills/waves.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/tulimshar-western-hills/water-sparkle.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/tulimshar-western-hills/water.png"
+  },
+  {
+   "name": "Bridge Vertical",
+   "key": "bridge-vertical",
+   "file": "assets/tilesets/tulimshar-western-hills/bridge-vertical.png"
+  },
+  {
+   "name": "Dock",
+   "key": "dock",
+   "file": "assets/tilesets/tulimshar-western-hills/dock.png"
+  },
+  {
+   "name": "High Board",
+   "key": "high-board",
+   "file": "assets/tilesets/tulimshar-western-hills/high-board.png"
+  },
+  {
+   "name": "Water Transition",
+   "key": "water-transition",
+   "file": "assets/tilesets/tulimshar-western-hills/water-transition.png"
+  },
+  {
+   "name": "Ship",
+   "key": "ship",
+   "file": "assets/tilesets/tulimshar-western-hills/ship.png"
+  },
+  {
+   "name": "Box",
+   "key": "box",
+   "file": "assets/tilesets/tulimshar-western-hills/box.png"
+  },
+  {
+   "name": "Mast",
+   "key": "mast",
+   "file": "assets/tilesets/tulimshar-western-hills/mast.png"
+  },
+  {
+   "name": "Ship Accessories",
+   "key": "ship-accessories",
+   "file": "assets/tilesets/tulimshar-western-hills/ship-accessories.png"
+  },
+  {
+   "name": "Mast x2x4",
+   "key": "mast-x2x4",
+   "file": "assets/tilesets/tulimshar-western-hills/mast-x2x4.png"
+  },
+  {
+   "name": "Box x1x2",
+   "key": "box-x1x2",
+   "file": "assets/tilesets/tulimshar-western-hills/box-x1x2.png"
+  },
+  {
+   "name": "Harbour x6x4",
+   "key": "harbour-x6x4",
+   "file": "assets/tilesets/tulimshar-western-hills/harbour-x6x4.png"
+  },
+  {
+   "name": "Pillar x2",
+   "key": "pillar-x2",
+   "file": "assets/tilesets/tulimshar-western-hills/pillar-x2.png"
+  }
+ ]
+}

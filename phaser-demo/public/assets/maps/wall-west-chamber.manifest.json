@@ -1,0 +1,48 @@
+{
+ "id": "wall-west-chamber",
+ "name": "Tulimshar West Chamber",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Castle Indoor",
+   "key": "castle-indoor",
+   "file": "assets/tilesets/wall-west-chamber/castle-indoor.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/wall-west-chamber/collision-full.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/wall-west-chamber/house.png"
+  },
+  {
+   "name": "Castle Indoor x3",
+   "key": "castle-indoor-x3",
+   "file": "assets/tilesets/wall-west-chamber/castle-indoor-x3.png"
+  },
+  {
+   "name": "Castle Indoor x4",
+   "key": "castle-indoor-x4",
+   "file": "assets/tilesets/wall-west-chamber/castle-indoor-x4.png"
+  },
+  {
+   "name": "Castle Indoor x2",
+   "key": "castle-indoor-x2",
+   "file": "assets/tilesets/wall-west-chamber/castle-indoor-x2.png"
+  },
+  {
+   "name": "Carpet",
+   "key": "carpet",
+   "file": "assets/tilesets/wall-west-chamber/carpet.png"
+  },
+  {
+   "name": "Sunlight x4 x4",
+   "key": "sunlight-x4-x4",
+   "file": "assets/tilesets/wall-west-chamber/sunlight-x4-x4.png"
+  }
+ ]
+}

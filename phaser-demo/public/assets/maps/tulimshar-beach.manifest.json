@@ -1,0 +1,93 @@
+{
+ "id": "tulimshar-beach",
+ "name": "Tulimshar Beach",
+ "tilewidth": 32,
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "name": "Ground",
+   "key": "ground",
+   "file": "assets/tilesets/tulimshar-beach/ground.png"
+  },
+  {
+   "name": "House",
+   "key": "house",
+   "file": "assets/tilesets/tulimshar-beach/house.png"
+  },
+  {
+   "name": "Wall",
+   "key": "wall",
+   "file": "assets/tilesets/tulimshar-beach/wall.png"
+  },
+  {
+   "name": "Accessory",
+   "key": "accessory",
+   "file": "assets/tilesets/tulimshar-beach/accessory.png"
+  },
+  {
+   "name": "Market",
+   "key": "market",
+   "file": "assets/tilesets/tulimshar-beach/market.png"
+  },
+  {
+   "name": "Accessory x3",
+   "key": "accessory-x3",
+   "file": "assets/tilesets/tulimshar-beach/accessory-x3.png"
+  },
+  {
+   "name": "Palm Tree x5",
+   "key": "palm-tree-x5",
+   "file": "assets/tilesets/tulimshar-beach/palm-tree-x5.png"
+  },
+  {
+   "name": "Ground x3",
+   "key": "ground-x3",
+   "file": "assets/tilesets/tulimshar-beach/ground-x3.png"
+  },
+  {
+   "name": "Pillar x2x2",
+   "key": "pillar-x2x2",
+   "file": "assets/tilesets/tulimshar-beach/pillar-x2x2.png"
+  },
+  {
+   "name": "Accessory x2",
+   "key": "accessory-x2",
+   "file": "assets/tilesets/tulimshar-beach/accessory-x2.png"
+  },
+  {
+   "name": "Ground x4",
+   "key": "ground-x4",
+   "file": "assets/tilesets/tulimshar-beach/ground-x4.png"
+  },
+  {
+   "name": "Collision Full",
+   "key": "collision-full",
+   "file": "assets/tilesets/tulimshar-beach/collision-full.png"
+  },
+  {
+   "name": "Waves",
+   "key": "waves",
+   "file": "assets/tilesets/tulimshar-beach/waves.png"
+  },
+  {
+   "name": "Water Sparkle",
+   "key": "water-sparkle",
+   "file": "assets/tilesets/tulimshar-beach/water-sparkle.png"
+  },
+  {
+   "name": "Water",
+   "key": "water",
+   "file": "assets/tilesets/tulimshar-beach/water.png"
+  },
+  {
+   "name": "Water Transition",
+   "key": "water-transition",
+   "file": "assets/tilesets/tulimshar-beach/water-transition.png"
+  },
+  {
+   "name": "Pillar x2",
+   "key": "pillar-x2",
+   "file": "assets/tilesets/tulimshar-beach/pillar-x2.png"
+  }
+ ]
+}
