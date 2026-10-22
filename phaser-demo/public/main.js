@@ -31,7 +31,8 @@ window.addEventListener('error', e => {
 });
 
 // Onde o jogo começa: costa de Artis no Overworld (perto do "Artis Port")
-const GAME_START = { mapId: 'overworld', spawn: { x: 4200, y: 1592 } }; // grama, tile (262,99)
+const CITY_RESPAWN = { mapId: 'tulimshar', spawn: { x: 3056, y: 2096 } }; // Tulimshar, área livre no centro da cidade
+const GAME_START = CITY_RESPAWN;
 
 function propsToObj(obj) {
   const out = {};
@@ -65,8 +66,9 @@ class WorldScene extends Phaser.Scene {
   constructor() { super('world'); }
 
   init(data) {
-    this.mapId = (data && data.mapId) || 'overworld';
-    this.spawnPoint = (data && data.spawn) || null;
+    this.mapId = (data && data.mapId) || CITY_RESPAWN.mapId;
+    this.spawnPoint = (data && data.spawn) ||
+      (this.mapId === CITY_RESPAWN.mapId ? CITY_RESPAWN.spawn : null);
     this.transitioning = false;
     this.warps = [];
     this.moveTarget = null;
