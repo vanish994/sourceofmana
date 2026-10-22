@@ -47,13 +47,13 @@ func RefreshBestiary(mobID : int, count : int):
 
 	var menuLine : MenuLine = bestiaries.get(mobID)
 	if not menuLine:
-		menuLine = MenuLine.new(mobID, entityData._name)
+		menuLine = MenuLine.new(mobID, tr(entityData._name))
 		menuLine.set_pressed(false)
 		menuLine.set_disabled(true)
 		bestiaries[mobID] = menuLine
 		bestiaryContainer.add_child.call_deferred(menuLine)
 
-	menuLine.set_text("%s (%d kill%s)" % [entityData._name, count, "s" if count > 1 else ""])
+	menuLine.set_text((tr("%s (%d kill)") if count == 1 else tr("%s (%d kills)")) % [tr(entityData._name), count])
 
 	if not bestiaryLabel.is_visible():
 		bestiaryLabel.set_visible(true)
@@ -67,7 +67,7 @@ func RefreshQuest(questID : int, state : int):
 	var isComplete : bool = state == ProgressCommons.CompletedProgress
 	var menuLine : MenuLine = quests.get(questID)
 	if not menuLine:
-		menuLine = MenuLine.new(questID, questData.name)
+		menuLine = MenuLine.new(questID, tr(questData.name))
 		menuLine.set_pressed(true)
 		menuLine.line_selected.connect(RefreshQuestDescription)
 		quests[questID] = menuLine
@@ -79,7 +79,7 @@ func RefreshQuest(questID : int, state : int):
 		if not completedQuests.get(questID, false):
 			completedQuestContainer.add_child.call_deferred(menuLine)
 			completedQuests[questID] = true
-			menuLine.set_text("%s (Completed)" % questData.name)
+			menuLine.set_text(tr("%s (Completed)") % tr(questData.name))
 	else:
 		if completedQuests.get(questID, false):
 			completedQuestContainer.remove_child.call_deferred(menuLine)
@@ -87,7 +87,7 @@ func RefreshQuest(questID : int, state : int):
 		if not activeQuests.get(questID, false):
 			activeQuestContainer.add_child.call_deferred(menuLine)
 			activeQuests[questID] = true
-			menuLine.set_text("%s" % questData.name)
+			menuLine.set_text("%s" % tr(questData.name))
 
 	questSeparator.set_visible(not activeQuests.is_empty() and not completedQuests.is_empty())
 	menuLine.Enable(not isComplete)
@@ -107,16 +107,16 @@ func RefreshQuestDescription(questID : int):
 		return
 
 	if not questData.description.is_empty():
-		questDescription.text += "Description:\n[color=#%s]%s[/color]\n\n" % [UICommons.TextColor.to_html(false), questData.description]
+		questDescription.text += tr("Description:") + "\n[color=#%s]%s[/color]\n\n" % [UICommons.TextColor.to_html(false), tr(questData.description)]
 	if not questData.giver.is_empty():
-		questDescription.text += "Giver:\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), questData.giver]
+		questDescription.text += tr("Giver:") + "\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), tr(questData.giver)]
 		if not questData.giverLocation.is_empty():
-			questDescription.text += " (%s)" % questData.giverLocation
+			questDescription.text += " (%s)" % tr(questData.giverLocation)
 		questDescription.text += "[/color]\n\n"
 	if not questData.target.is_empty():
-		questDescription.text += "Target:\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), questData.target]
+		questDescription.text += tr("Target:") + "\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), tr(questData.target)]
 		if not questData.targetLocation.is_empty():
-			questDescription.text += " (%s)" % questData.targetLocation
+			questDescription.text += " (%s)" % tr(questData.targetLocation)
 		questDescription.text += "[/color]\n\n"
 	if not questData.reward.is_empty():
-		questDescription.text += "Reward:\n[color=#%s]%s[/color]\n\n" % [UICommons.WarnTextColor.to_html(false), questData.reward]
+		questDescription.text += tr("Reward:") + "\n[color=#%s]%s[/color]\n\n" % [UICommons.WarnTextColor.to_html(false), tr(questData.reward)]

@@ -90,7 +90,7 @@ func ToggleButton(enable : bool, text : String):
 	if enable and lastTween:
 		await lastTween.finished
 	button.set_visible(enable)
-	buttonLabel.set_text(text)
+	buttonLabel.set_text(tr(text) if not text.is_empty() else text)
 
 func ButtonPressed():
 	if lastTween:

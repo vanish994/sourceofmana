@@ -118,9 +118,9 @@ func DisplayActions(actions : PackedStringArray, duration : float = -1.0):
 func DisplayPlayerMenu(nick : String):
 	playerMenuTarget = nick
 	playerMenu.clear()
-	playerMenu.add_item("Whisper", UICommons.PlayerMenu.WHISPER)
+	playerMenu.add_item(tr("Whisper"), UICommons.PlayerMenu.WHISPER)
 	if not tradePanel.IsTrading():
-		playerMenu.add_item("Trade", UICommons.PlayerMenu.TRADE)
+		playerMenu.add_item(tr("Trade"), UICommons.PlayerMenu.TRADE)
 	playerMenu.position = Vector2i(get_viewport().get_mouse_position())
 	playerMenu.popup()
 

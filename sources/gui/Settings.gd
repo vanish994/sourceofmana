@@ -11,6 +11,7 @@ const creditsJson : JSON						= preload("res://data/db/credits.json")
 	"Render-WindowSize": [init_resolution, set_resolution, apply_resolution, $Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/WindowResolution/Option],
 	"Render-WindowPos": [init_windowPos, set_windowPos, apply_windowPos, null],
 	"Render-ActionOverlay": [init_actionoverlay, set_actionoverlay, apply_actionoverlay, $Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/ActionOverlay],
+	"Interface-Language": [init_language, set_language, apply_language, $Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Language/Option],
 	"Render-Lighting": [init_lighting, set_lighting, apply_lighting, $Layout/Margin/TabBar/Render/RenderVBox/EffectVBox/Lighting],
 	"Render-HQ4x": [init_hq4x, set_hq4x, apply_hq4x, $Layout/Margin/TabBar/Render/RenderVBox/EffectVBox/HQx4],
 	"Render-CRT": [init_crt, set_crt, apply_crt, $Layout/Margin/TabBar/Render/RenderVBox/EffectVBox/CRT],
@@ -141,6 +142,29 @@ func set_scaling(mode : int):
 func apply_scaling(mode : int):
 	Launcher.Root.set_content_scale_factor(mode + 1)
 	init_actionoverlay(true)
+
+# Language
+const languageOptions : PackedStringArray = ["auto", "en", "pt_BR"]
+func init_language(apply : bool):
+	var language : String = GetVal("Interface-Language")
+	var selected : int = languageOptions.find(language)
+	if selected == -1:
+		selected = 0
+	var label : OptionButton = renderAccessors["Interface-Language"][ACC_TYPE.LABEL]
+	label.clear()
+	label.add_item(tr("Automatic"), 0)
+	label.add_item("English", 1)
+	label.add_item("Português (Brasil)", 2)
+	label.select(selected)
+	if apply:
+		apply_language(language)
+func set_languageIdx(languageIdx : int):
+	set_language(languageOptions[languageIdx] if languageIdx >= 0 and languageIdx < languageOptions.size() else Lang.Auto)
+func set_language(language : String):
+	SetVal("Interface-Language", language)
+	apply_language(language)
+func apply_language(language : String):
+	Lang.Apply(language)
 
 # ActionOverlay
 func init_actionoverlay(apply : bool):

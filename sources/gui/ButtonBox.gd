@@ -19,7 +19,7 @@ var suggestTween : Tween				= null
 func _bind(button : Button, buttonName : String, callable : Callable):
 	Callback.PlugCallback(button.pressed, callable)
 	_show(button, true)
-	_name(button, buttonName)
+	_name(button, tr(buttonName) if not buttonName.is_empty() else buttonName)
 
 func _call(button : Button):
 	if not button.disabled:

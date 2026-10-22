@@ -491,6 +491,11 @@ ui_context_next={
 ]
 }
 
+[internationalization]
+
+locale/fallback="en"
+locale/translations=PackedStringArray("res://data/translations/pt_BR.tres")
+
 [input_devices]
 
 pointing/android/enable_pan_and_scale_gestures=true

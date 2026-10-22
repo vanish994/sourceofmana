@@ -16,7 +16,7 @@ func Display(text : String, primary = null, primaryText : String = "", cancel = 
 		previousFocus = get_viewport().gui_get_focus_owner()
 	LockActions(true)
 
-	label.set_text(text)
+	label.set_text(tr(text) if not text.is_empty() else text)
 	if primary and primary is Callable:			buttonBox.Bind(UICommons.ButtonBox.PRIMARY, primaryText, Call.bind(primary))
 	if cancel and cancel is Callable:			buttonBox.Bind(UICommons.ButtonBox.CANCEL, cancelText, Call.bind(cancel))
 	if secondary and secondary is Callable:		buttonBox.Bind(UICommons.ButtonBox.SECONDARY, secondaryText, Call.bind(secondary))

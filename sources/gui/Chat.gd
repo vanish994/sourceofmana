@@ -26,13 +26,16 @@ func AddPlayerChat(channelName : String, callerName : String, text : String, age
 	if channelIdx == GUICommons.ChatChannel.UNKNOWN:
 		return
 
-	AddLine(channelIdx, callerName, UICommons.PlayerNameToColor(callerName))
-	AddLine(channelIdx, ": " + text + "\n", UICommons.LightTextColor)
+	var entity : Entity = Entities.Get(agentRID) if agentRID > 0 else Entities.GetNamed(callerName)
+	var isNpc : bool = entity != null and entity.type != ActorCommons.Type.PLAYER
+	var displayText : String = tr(text) if isNpc else text
+
+	AddLine(channelIdx, tr(callerName) if isNpc else callerName, UICommons.PlayerNameToColor(callerName))
+	AddLine(channelIdx, ": " + displayText + "\n", UICommons.LightTextColor)
 
 	if channelIdx == GUICommons.ChatChannel.LOCAL:
-		var entity : Entity = Entities.Get(agentRID) if agentRID > 0 else Entities.GetNamed(callerName)
 		if entity and entity.get_parent() and entity.interactive:
-			entity.interactive.DisplaySpeech(text)
+			entity.interactive.DisplaySpeech(displayText)
 	elif channelIdx >= GUICommons.ChatChannel.DEFAULT_CHANNEL_COUNT:
 		var localNick : String = Launcher.Player.nick if Launcher.Player else ""
 		if callerName != localNick:
@@ -171,11 +174,11 @@ func _ready():
 	for channelIdx in GUICommons.ChatChannel.DEFAULT_CHANNEL_COUNT:
 		channelTabs[str(channelIdx)] = channelIdx
 
-	AddLocalFeedback("Welcome to " + LauncherCommons.ProjectName)
+	AddLocalFeedback(tr("Welcome to %s") % LauncherCommons.ProjectName)
 	var linkColor : String = "[color=#" + UICommons.WarnTextColor.to_html(false) + "]"
 	var discordLink : String = linkColor + "[url=" + LauncherCommons.DiscordInviteLink + "]Discord[/url][/color]"
 	var ircLink : String = linkColor + "[url=" + LauncherCommons.IRCLink + "]IRC[/url][/color]"
-	AddGlobalFeedback("Messages sent here are publicly bridged to our " + discordLink + " and " + ircLink + " channels.")
+	AddGlobalFeedback(tr("Messages sent here are publicly bridged to our %s and %s channels.") % [discordLink, ircLink])
 
 	SetNewLineEnabled(false)
 

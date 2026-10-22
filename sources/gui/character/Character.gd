@@ -31,25 +31,25 @@ func FillWarningLabel(err : NetworkCommons.CharacterError):
 			warn = ""
 			EnableCharacterCreator(false)
 		NetworkCommons.CharacterError.ERR_ALREADY_LOGGED_IN:
-			warn = "Character is already logged in."
+			warn = tr("Character is already logged in.")
 		NetworkCommons.CharacterError.ERR_TIMEOUT:
-			warn = "Could not connect to the server (Error %d)." % err
+			warn = tr("Could not connect to the server (Error %d).") % err
 		NetworkCommons.CharacterError.ERR_MISSING_PARAMS:
-			warn = "Some character information are missing."
+			warn = tr("Some character information are missing.")
 			RequestFocus(characterNameLineEdit)
 		NetworkCommons.CharacterError.ERR_NAME_AVAILABLE:
-			warn = "Character name not available."
+			warn = tr("Character name not available.")
 			RequestFocus(characterNameLineEdit)
 		NetworkCommons.CharacterError.ERR_NAME_VALID:
-			warn = "Name should should only include alpha-numeric characters and symbols."
+			warn = tr("Name should should only include alpha-numeric characters and symbols.")
 			RequestFocus(characterNameLineEdit)
 		NetworkCommons.CharacterError.ERR_NAME_SIZE:
-			warn = "Name length should be inbetween %d and %d character long." % [NetworkCommons.PlayerNameMinSize, NetworkCommons.PlayerNameMaxSize]
+			warn = tr("Name length should be inbetween %d and %d character long.") % [NetworkCommons.PlayerNameMinSize, NetworkCommons.PlayerNameMaxSize]
 			RequestFocus(characterNameLineEdit)
 		NetworkCommons.CharacterError.ERR_EMPTY_ACCOUNT:
 			EnableCharacterCreator(true)
 		_:
-			warn = "Unknown character issue (Error %d).\nPlease contact us via our [url=%s][color=#%s]Discord server[/color][/url].\n" % [err, LauncherCommons.DiscordInviteLink, UICommons.WarnTextColor]
+			warn = tr("Unknown character issue (Error %d).\nPlease contact us via our [url=%s][color=#%s]Discord server[/color][/url].\n") % [err, LauncherCommons.DiscordInviteLink, UICommons.WarnTextColor]
 
 	if not warn.is_empty():
 		warn = "[color=#%s]%s[/color]" % [UICommons.WarnTextColor.to_html(false), warn]

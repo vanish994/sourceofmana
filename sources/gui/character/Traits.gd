@@ -56,7 +56,7 @@ func GetValues():
 func RefreshHairstyle():
 	var hairstyles : PackedInt64Array = DB.HairstylesDB.keys()
 	if hairstyleValue >= 0 and hairstyleValue < hairstylesCount:
-		hairstyleLabel.set_text(DB.GetHairstyle(hairstyles[hairstyleValue])._name)
+		hairstyleLabel.set_text(tr(DB.GetHairstyle(hairstyles[hairstyleValue])._name))
 		hairUpdate.emit()
 
 func _on_hairstyle_prev_button():
@@ -71,7 +71,7 @@ func _on_hairstyle_next_button():
 func RefreshHaircolor():
 	var palettes : PackedInt64Array = DB.PalettesDB[DB.Palette.HAIR].keys()
 	if haircolorValue >= 0 and haircolorValue < haircolorsCount:
-		haircolorLabel.set_text(DB.GetPalette(DB.Palette.HAIR, palettes[haircolorValue])._name)
+		haircolorLabel.set_text(tr(DB.GetPalette(DB.Palette.HAIR, palettes[haircolorValue])._name))
 		hairUpdate.emit()
 
 func _on_haircolor_prev_button():
@@ -84,7 +84,7 @@ func _on_haircolor_next_button():
 
 # Gender
 func RefreshGender():
-	genderLabel.set_text(ActorCommons.GetGenderName(genderValue))
+	genderLabel.set_text(tr(ActorCommons.GetGenderName(genderValue)))
 	bodyUpdate.emit()
 
 func _on_gender_prev_button():
@@ -100,7 +100,7 @@ func RefreshRace():
 	var races : PackedInt64Array = DB.RacesDB.keys()
 	if raceValue >= 0 and raceValue < raceCount:
 		var data : RaceData = DB.GetRace(races[raceValue])
-		raceLabel.set_text(data.name)
+		raceLabel.set_text(tr(data.name))
 		RefreshSkintone()
 		bodyUpdate.emit()
 
@@ -123,7 +123,7 @@ func RefreshSkintone():
 		if skintoneValue < 0 or skintoneValue >= skintoneCount:
 			skintoneValue = 0
 		if skintoneValue >= 0 and skintoneValue < skintoneCount:
-			skintoneLabel.set_text(skinsKeys[skintoneValue])
+			skintoneLabel.set_text(tr(skinsKeys[skintoneValue]))
 			bodyUpdate.emit()
 
 func _on_skintone_prev_button():

@@ -21,7 +21,7 @@ static func AddCategories(container : VBoxContainer, dictionary : Dictionary):
 		for category in dictionary["categories"]:
 			if "category" in category:
 				var label : RichTextLabel = categoryLabel.instantiate()
-				label.text = "[center][color=#" + UICommons.LightTextColor.to_html(false) + "]" + category["category"] + "[/color][/center]\n"
+				label.text = "[center][color=#" + UICommons.LightTextColor.to_html(false) + "]" + tr(category["category"]) + "[/color][/center]\n"
 				container.add_child.call_deferred(label)
 			AddEntries(container, category)
 
@@ -35,7 +35,7 @@ static func AddEntries(container : VBoxContainer, entries : Dictionary):
 static func AddTitle(container : VBoxContainer, entry : Dictionary):
 	if "title" in entry:
 		var label : RichTextLabel = titleLabel.instantiate()
-		label.text = "[color=#" + UICommons.LightTextColor.to_html(false) + "]" + entry["title"]
+		label.text = "[color=#" + UICommons.LightTextColor.to_html(false) + "]" + tr(entry["title"])
 		if "date" in entry:
 			label.text += " ~ " + entry["date"]
 		label.text += "[/color]\n"
@@ -44,7 +44,7 @@ static func AddTitle(container : VBoxContainer, entry : Dictionary):
 static func AddContent(container : VBoxContainer, entry : Dictionary):
 	if "content" in entry:
 		var label : RichTextLabel = contentLabel.instantiate()
-		var content : String = entry["content"]
+		var content : String = tr(entry["content"])
 		content = content.replace("[url", "[color=#" + UICommons.WarnTextColor.to_html(false) + "][url").replace("[/url]", "[/url][/color]")
 		label.text = "[color=#" + UICommons.TextColor.to_html(false) + "]" + content + "[/color]\n"
 		label.meta_clicked.connect(_richtextlabel_on_meta_clicked)

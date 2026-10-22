@@ -171,7 +171,7 @@ static func HasActionName(action : String) -> bool:
 	return action in actionNames
 
 static func GetActionName(action : String) -> String:
-	return actionNames[action] if HasActionName(action) else ""
+	return tr(actionNames[action]) if HasActionName(action) else ""
 
 static func GetEvents(action : String) -> Array[InputEvent]:
 	return InputMap.action_get_events(action) if InputMap.has_action(action) else []

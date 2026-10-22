@@ -25,7 +25,7 @@ func Setup(lineCell : BaseCell, lineMax : int, lineValue : int, ownedCount : int
 	tile.isInteractive = false
 	tile.AssignData(cell, maxi(ownedCount, 1))
 
-	var title : String = cell.name
+	var title : String = tr(cell.name)
 	if cell is ItemCell and not cell.customfield.is_empty():
 		title += " (%s)" % cell.customfield
 	nameLabel.set_text(title)

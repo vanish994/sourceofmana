@@ -132,6 +132,7 @@ func Quit():
 #
 func _init():
 	Conf.Init()
+	Lang.Apply()
 	Monitoring.Init()
 
 func _ready():

@@ -10,12 +10,12 @@ extends ScrollContainer
 func OnPasswordChangeResult(err : NetworkCommons.AuthError):
 	match err:
 		NetworkCommons.AuthError.ERR_PASSWORD_CHANGE_OK:
-			SetPasswordStatus("Password changed successfully.", false)
+			SetPasswordStatus(tr("Password changed successfully."), false)
 			currentPasswordField.clear()
 			newPasswordField.clear()
 			confirmPasswordField.clear()
 		NetworkCommons.AuthError.ERR_PASSWORD_CHANGE_WRONG:
-			SetPasswordStatus("Current password is incorrect.", true)
+			SetPasswordStatus(tr("Current password is incorrect."), true)
 
 func SetPasswordStatus(text : String, isWarn : bool):
 	var textColor : Color = UICommons.WarnTextColor if isWarn else UICommons.TextColor
@@ -29,22 +29,22 @@ func _on_change_button_pressed():
 
 	var currentErr : NetworkCommons.AuthError = NetworkCommons.CheckPasswordInformation(currentPassword)
 	if currentErr != NetworkCommons.AuthError.ERR_OK:
-		SetPasswordStatus("Current password is invalid.", true)
+		SetPasswordStatus(tr("Current password is invalid."), true)
 		currentPasswordField.grab_focus()
 		return
 
 	var newErr : NetworkCommons.AuthError = NetworkCommons.CheckPasswordInformation(newPassword)
 	if newErr == NetworkCommons.AuthError.ERR_PASSWORD_SIZE:
-		SetPasswordStatus("New password length should be between %d and %d characters." % [NetworkCommons.PasswordMinSize, NetworkCommons.PasswordMaxSize], true)
+		SetPasswordStatus(tr("New password length should be between %d and %d characters.") % [NetworkCommons.PasswordMinSize, NetworkCommons.PasswordMaxSize], true)
 		newPasswordField.grab_focus()
 		return
 	elif newErr == NetworkCommons.AuthError.ERR_PASSWORD_VALID:
-		SetPasswordStatus("New password should not include control characters such as tabs or line breaks.", true)
+		SetPasswordStatus(tr("New password should not include control characters such as tabs or line breaks."), true)
 		newPasswordField.grab_focus()
 		return
 
 	if newPassword != confirmPassword:
-		SetPasswordStatus("New passwords do not match.", true)
+		SetPasswordStatus(tr("New passwords do not match."), true)
 		confirmPasswordField.grab_focus()
 		return
 

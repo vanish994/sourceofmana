@@ -42,7 +42,7 @@ func Express(agentRID : int, text : String, _peerID : int):
 	if Launcher.GUI:
 		var entity : Entity = Entities.Get(agentRID)
 		if entity and entity.get_parent() and entity.interactive:
-			entity.interactive.DisplaySpeech(text)
+			entity.interactive.DisplaySpeech(text if entity.type == ActorCommons.Type.PLAYER else tr(text))
 
 func ChatQuery(channelName : String, _peerID : int):
 	if Launcher.GUI:
@@ -56,7 +56,7 @@ func ChatPlayer(channelName : String, callerName : String, text : String, agentR
 
 func ChatSystem(channelName : String, text : String, _peerID : int):
 	if Launcher.GUI:
-		Launcher.GUI.chatContainer.AddSystemChat(channelName, text)
+		Launcher.GUI.chatContainer.AddSystemChat(channelName, tr(text))
 
 func ToggleContext(enable : bool, _peerID : int):
 	if Launcher.Player:
@@ -67,7 +67,7 @@ func ContextText(author : String, text : String, _peerID : int):
 		return
 	if not author.is_empty():
 		Launcher.GUI.dialoguePanel.AddName(author)
-	Launcher.GUI.dialoguePanel.AddDialogue(text)
+	Launcher.GUI.dialoguePanel.AddDialogue(tr(text))
 	Launcher.GUI.dialoguePanel.ToggleButton(false, "")
 
 func ContextThink(author : String, text : String, _peerID : int):
@@ -75,7 +75,7 @@ func ContextThink(author : String, text : String, _peerID : int):
 		return
 	if not author.is_empty():
 		Launcher.GUI.dialoguePanel.AddName(author)
-	Launcher.GUI.dialoguePanel.AddThink(text)
+	Launcher.GUI.dialoguePanel.AddThink(tr(text))
 	Launcher.GUI.dialoguePanel.ToggleButton(false, "")
 
 func ContextContinue(_peerID : int):
@@ -338,7 +338,7 @@ func DisplayActions(actions : PackedStringArray, _peerID : int):
 
 func PushNotification(notif : String, _peerID : int):
 	if Launcher.Player and Launcher.GUI:
-		Launcher.GUI.notificationLabel.AddNotification(notif)
+		Launcher.GUI.notificationLabel.AddNotification(tr(notif))
 
 func RefreshOnlineList(players : PackedStringArray, _peerID : int):
 	if Launcher.GUI:

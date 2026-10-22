@@ -94,25 +94,25 @@ func GetTooltipSkillModifiers() -> String:
 			else:
 				effects += line
 
-	var buffHeader : String = "Buff (%s)" % Util.FormatDuration(int(cell.buffTime)) if cell.buffTime > 0.0 else "Buff"
-	var bbcode : String = GetTooltipSection("Effect", effects) + GetTooltipSection(buffHeader, buffs) + GetTooltipSection("Cost", costs)
+	var buffHeader : String = tr("Buff (%s)") % Util.FormatDuration(int(cell.buffTime)) if cell.buffTime > 0.0 else tr("Buff")
+	var bbcode : String = GetTooltipSection(tr("Effect"), effects) + GetTooltipSection(buffHeader, buffs) + GetTooltipSection(tr("Cost"), costs)
 	return "" if bbcode.is_empty() else "\n" + bbcode
 
 func GetTooltipWeight() -> String:
 	if cell.weight == 0:
 		return ""
 	var lightColor : String = "#" + UICommons.LightTextColor.to_html(false)
-	return "\n\nWeight: [color=%s]%dg[/color]" % [lightColor, cell.weight]
+	return "\n\n" + tr("Weight:") + " [color=%s]%dg[/color]" % [lightColor, cell.weight]
 
 func GetTooltipHeader() -> String:
-	var bbcode : String = cell.name
+	var bbcode : String = tr(cell.name)
 	var lightColor : String = "#" + UICommons.LightTextColor.to_html(false)
 	if cell is ItemCell and not cell.customfield.is_empty():
 		bbcode += " (%s)" % cell.customfield
 	if cell.description:
-		bbcode += "\n[color=%s]%s[/color]" % [lightColor, cell.description]
+		bbcode += "\n[color=%s]%s[/color]" % [lightColor, tr(cell.description)]
 	if cell is SkillCell and Launcher.Player and Launcher.Player.progress:
-		bbcode += "\nLevel: [color=%s]%d[/color]" % [lightColor, Launcher.Player.progress.GetSkillLevel(cell)]
+		bbcode += "\n" + tr("Level:") + " [color=%s]%d[/color]" % [lightColor, Launcher.Player.progress.GetSkillLevel(cell)]
 	return bbcode
 
 func SetToolTip():

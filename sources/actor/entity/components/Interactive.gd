@@ -328,7 +328,7 @@ func Init(data : EntityData):
 	displayName = (entity.type == ActorCommons.Type.PLAYER or data._displayName) and entity != Launcher.Player
 
 	if nameLabel:
-		nameLabel.set_text(entity.nick)
+		nameLabel.set_text(entity.nick if entity.type == ActorCommons.Type.PLAYER else tr(entity.nick))
 		nameLabel.set_visible(displayName)
 		match entity.type:
 			ActorCommons.Type.NPC:

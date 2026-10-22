@@ -139,29 +139,29 @@ func Refresh():
 
 	RefreshLockButton()
 	if isMerchant:
-		statusLabel.set_text("Not enough GP." if not CanAffordMerchant() else "")
+		statusLabel.set_text(tr("Not enough GP.") if not CanAffordMerchant() else "")
 	elif ownLocked and otherLocked:
-		statusLabel.set_text("Completing the trade...")
+		statusLabel.set_text(tr("Completing the trade..."))
 	elif ownLocked:
-		statusLabel.set_text("Waiting for partner...")
+		statusLabel.set_text(tr("Waiting for partner..."))
 	elif otherLocked:
-		statusLabel.set_text("Partner locked.")
+		statusLabel.set_text(tr("Partner locked."))
 	else:
 		statusLabel.set_text("")
 
 func RefreshLockButton():
 	if isMerchant:
 		lockButton.set_disabled(not CanAffordMerchant() or (ownOffer.is_empty() and otherPicker.GetValues().is_empty()))
-		lockButton.set_text("Trade")
+		lockButton.set_text(tr("Trade"))
 		return
 
 	var isCoolingDown : bool = lockCooldownLeft > 0.0 and not ownLocked
 	lockButton.set_disabled(isCoolingDown)
 
 	if isCoolingDown:
-		lockButton.set_text("Lock (%d)" % ceili(lockCooldownLeft))
+		lockButton.set_text(tr("Lock (%d)") % ceili(lockCooldownLeft))
 	else:
-		lockButton.set_text("Unlock" if ownLocked else "Lock")
+		lockButton.set_text(tr("Unlock") if ownLocked else tr("Lock"))
 
 func FillGrid(grid : GridContainer, offer : Array) -> int:
 	var tileIdx : int = 0
@@ -236,7 +236,7 @@ func SetPickerVisible(state : bool):
 	doneButton.set_visible(state)
 	ownScroll.set_visible(not state)
 	lockButton.set_visible(not state)
-	cancelButton.set_text("Back" if state else "Cancel")
+	cancelButton.set_text(tr("Back") if state else tr("Cancel"))
 
 func RefreshInventory():
 	if picker.is_visible():

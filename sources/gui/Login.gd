@@ -61,52 +61,52 @@ func FillWarningLabel(err : NetworkCommons.AuthError):
 		NetworkCommons.AuthError.ERR_OK:
 			warn = ""
 		NetworkCommons.AuthError.ERR_TOKEN:
-			warn = "Invalid token, enter your password"
+			warn = tr("Invalid token, enter your password")
 			passwordTextControl.clear()
 			ClearSavedToken()
 			RequestFocus(passwordTextControl)
 		NetworkCommons.AuthError.ERR_DUPLICATE_CONNECTION:
-			warn = "Another connection happened with the same login."
+			warn = tr("Another connection happened with the same login.")
 		NetworkCommons.AuthError.ERR_AUTH:
-			warn = "Invalid account name or password."
+			warn = tr("Invalid account name or password.")
 			RequestFocus(passwordTextControl)
 		NetworkCommons.AuthError.ERR_PASSWORD_VALID:
-			warn = "Password should not include control characters such as tabs or line breaks."
+			warn = tr("Password should not include control characters such as tabs or line breaks.")
 			RequestFocus(passwordTextControl)
 		NetworkCommons.AuthError.ERR_PASSWORD_SIZE:
-			warn = "Password length should be inbetween %d and %d character long." % [NetworkCommons.PasswordMinSize, NetworkCommons.PasswordMaxSize]
+			warn = tr("Password length should be inbetween %d and %d character long.") % [NetworkCommons.PasswordMinSize, NetworkCommons.PasswordMaxSize]
 			RequestFocus(passwordTextControl)
 		NetworkCommons.AuthError.ERR_NAME_AVAILABLE:
-			warn = "Account name not available."
+			warn = tr("Account name not available.")
 			RequestFocus(nameTextControl)
 		NetworkCommons.AuthError.ERR_NAME_VALID:
-			warn = "Name should should only include alpha-numeric characters and symbols."
+			warn = tr("Name should should only include alpha-numeric characters and symbols.")
 			RequestFocus(nameTextControl)
 		NetworkCommons.AuthError.ERR_NAME_SIZE:
-			warn = "Name length should be inbetween %d and %d character long." % [NetworkCommons.PlayerNameMinSize, NetworkCommons.PlayerNameMaxSize]
+			warn = tr("Name length should be inbetween %d and %d character long.") % [NetworkCommons.PlayerNameMinSize, NetworkCommons.PlayerNameMaxSize]
 			RequestFocus(nameTextControl)
 		NetworkCommons.AuthError.ERR_PASSWORD_MISMATCH:
-			warn = "Passwords do not match."
+			warn = tr("Passwords do not match.")
 			RequestFocus(confirmPasswordTextControl)
 		NetworkCommons.AuthError.ERR_EMAIL_VALID:
-			warn = "Email is incorrect, please us a normal email format."
+			warn = tr("Email is incorrect, please us a normal email format.")
 			RequestFocus(emailTextControl)
 		NetworkCommons.AuthError.ERR_RESET_UNAVAILABLE:
-			warn = "Password reset is not available on this server."
+			warn = tr("Password reset is not available on this server.")
 			SetRecoveryState(RecoveryState.NONE)
 		NetworkCommons.AuthError.ERR_RESET_EMAIL_SENT:
-			warn = "If this email is registered, a reset code has been sent. Check your inbox."
+			warn = tr("If this email is registered, a reset code has been sent. Check your inbox.")
 			isWarn = false
 			SetRecoveryState(RecoveryState.ENTER_CODE)
 		NetworkCommons.AuthError.ERR_RESET_INVALID_CODE:
-			warn = "Invalid or expired reset code."
+			warn = tr("Invalid or expired reset code.")
 			RequestFocus(resetCodeTextControl)
 		NetworkCommons.AuthError.ERR_RESET_PASSWORD_UPDATED:
-			warn = "Password updated successfully. You can now log in."
+			warn = tr("Password updated successfully. You can now log in.")
 			isWarn = false
 			SetRecoveryState(RecoveryState.NONE)
 		_:
-			warn = "Could not connect to the server (Error %d).\nPlease contact us via our [url=%s][color=#%s]Discord server[/color][/url].\nMeanwhile be sure to test the offline mode!" % [err, LauncherCommons.DiscordInviteLink, UICommons.WarnTextColor]
+			warn = tr("Could not connect to the server (Error %d).\nPlease contact us via our [url=%s][color=#%s]Discord server[/color][/url].\nMeanwhile be sure to test the offline mode!") % [err, LauncherCommons.DiscordInviteLink, UICommons.WarnTextColor]
 
 	var textColor : Color = UICommons.WarnTextColor if isWarn else UICommons.TextColor
 

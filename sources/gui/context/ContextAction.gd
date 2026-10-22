@@ -26,7 +26,7 @@ func SetInputLabel():
 
 #
 func _ready():
-	_label.set_text(_data._title)
+	_label.set_text(tr(_data._title) if not _data._title.is_empty() else _data._title)
 	SetInputLabel()
 	Launcher.Action.deviceChanged.connect(SetInputLabel)
 	if _icon:

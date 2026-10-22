@@ -23,7 +23,7 @@ const ProgressLines : PackedStringArray			= [
 #
 func SetProgress(current : int, total : int):
 	if current >= total:
-		label.set_text(DefaultText)
+		label.set_text(tr(DefaultText))
 		return
 
 	if progressLines.is_empty():
@@ -36,7 +36,7 @@ func SetProgress(current : int, total : int):
 	if targetLineIdx > lineIdx and Time.get_ticks_msec() - lineShownTimestamp >= MinLineDurationMs:
 		lineIdx += 1
 		lineShownTimestamp = Time.get_ticks_msec()
-	label.set_text("%s... %d%%" % [progressLines[lineIdx], floori(ratio * 100.0)])
+	label.set_text("%s... %d%%" % [tr(progressLines[lineIdx]), floori(ratio * 100.0)])
 
 func _on_visibility_changed() -> void:
 	if visible:

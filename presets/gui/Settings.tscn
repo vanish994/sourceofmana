@@ -126,6 +126,29 @@ popup/item_1/id = 1
 popup/item_2/text = "x3"
 popup/item_2/id = 2
 
+[node name="Language" type="HBoxContainer" parent="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox" unique_id=1911223344]
+layout_mode = 2
+size_flags_vertical = 10
+
+[node name="Label" type="Label" parent="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Language" unique_id=1911223345]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " Language"
+
+[node name="Option" type="OptionButton" parent="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Language" unique_id=1911223346]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+tooltip_text = "Sets the language of the game interface."
+selected = 0
+item_count = 3
+popup/item_0/text = "System Default"
+popup/item_0/id = 0
+popup/item_1/text = "English"
+popup/item_1/id = 1
+popup/item_2/text = "Português (Brasil)"
+popup/item_2/id = 2
+
 [node name="ActionOverlay" type="CheckButton" parent="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox" unique_id=1637200902]
 layout_mode = 2
 tooltip_text = "Shows touch buttons on screen for movement and actions."
@@ -425,6 +448,7 @@ alignment = 1
 [connection signal="toggled" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Fullscreen" to="." method="set_fullscreen"]
 [connection signal="item_selected" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/WindowResolution/Option" to="." method="set_resolutionIdx"]
 [connection signal="item_selected" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Scaling/Option" to="." method="set_scaling"]
+[connection signal="item_selected" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/Language/Option" to="." method="set_languageIdx"]
 [connection signal="toggled" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/ActionOverlay" to="." method="set_actionoverlay"]
 [connection signal="pressed" from="Layout/Margin/TabBar/Render/RenderVBox/VisualVBox/ResetWindows" to="." method="reset_sessionoverlay"]
 [connection signal="toggled" from="Layout/Margin/TabBar/Render/RenderVBox/EffectVBox/Lighting" to="." method="set_lighting"]

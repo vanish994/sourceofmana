@@ -164,7 +164,7 @@ func RefreshVitalStats():
 
 	RefreshGender()
 	lName.set_text(Launcher.Player.nick)
-	lLevel.set_text("Lv. %d" % panelStats.level)
+	lLevel.set_text(tr("Lv. %d") % panelStats.level)
 	var spiritData : EntityData = DB.EntitiesDB.get(panelStats.spirit, null)
 	if spiritData:
 		lSpirit.set_text(spiritData._name)

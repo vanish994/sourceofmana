@@ -62,28 +62,28 @@ enum Modifier {
 
 static func GetModifierDisplayName(effect : Modifier) -> String:
 	match effect:
-		Modifier.Health:		return "Health"
-		Modifier.Mana:			return "Mana"
-		Modifier.Stamina:		return "Stamina"
-		Modifier.MaxHealth:		return "Max Health"
-		Modifier.MaxMana:		return "Max Mana"
-		Modifier.MaxStamina:	return "Max Stamina"
-		Modifier.Attack:		return "Attack"
-		Modifier.Defense:		return "Defense"
-		Modifier.MAttack:		return "M. Attack"
-		Modifier.MDefense:		return "M. Defense"
-		Modifier.AttackRange:	return "Atk Range"
-		Modifier.CritRate:		return "Crit Rate"
-		Modifier.DodgeRate:		return "Dodge Rate"
-		Modifier.Accuracy:		return "Accuracy"
-		Modifier.CastDelay:		return "Cast Delay"
-		Modifier.CooldownDelay:	return "Cooldown"
-		Modifier.RegenHealth:	return "HP Regen"
-		Modifier.RegenMana:		return "MP Regen"
-		Modifier.RegenStamina:	return "SP Regen"
-		Modifier.WalkSpeed:		return "Walk Speed"
-		Modifier.WeightCapacity: return "Carry Weight"
-		_:						return "Unknown"
+		Modifier.Health:		return tr("Health")
+		Modifier.Mana:			return tr("Mana")
+		Modifier.Stamina:		return tr("Stamina")
+		Modifier.MaxHealth:		return tr("Max Health")
+		Modifier.MaxMana:		return tr("Max Mana")
+		Modifier.MaxStamina:	return tr("Max Stamina")
+		Modifier.Attack:		return tr("Attack")
+		Modifier.Defense:		return tr("Defense")
+		Modifier.MAttack:		return tr("M. Attack")
+		Modifier.MDefense:		return tr("M. Defense")
+		Modifier.AttackRange:	return tr("Atk Range")
+		Modifier.CritRate:		return tr("Crit Rate")
+		Modifier.DodgeRate:		return tr("Dodge Rate")
+		Modifier.Accuracy:		return tr("Accuracy")
+		Modifier.CastDelay:		return tr("Cast Delay")
+		Modifier.CooldownDelay:	return tr("Cooldown")
+		Modifier.RegenHealth:	return tr("HP Regen")
+		Modifier.RegenMana:		return tr("MP Regen")
+		Modifier.RegenStamina:	return tr("SP Regen")
+		Modifier.WalkSpeed:		return tr("Walk Speed")
+		Modifier.WeightCapacity: return tr("Carry Weight")
+		_:						return tr("Unknown")
 
 static func IsInverseModifier(effect : Modifier) -> bool:
 	return effect == Modifier.CastDelay or effect == Modifier.CooldownDelay
